@@ -3,6 +3,7 @@ body{
     width: 100vw;
     background-image:url(./img/background.png);
     background-size: cover;
+    overflow: hidden;
 }
 .outer{
     position:relative;
