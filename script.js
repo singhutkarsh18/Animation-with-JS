@@ -1,24 +1,22 @@
+var gokuAnime=document.getElementById("goku");
+var goku = ['url(img/dbz1.png)','url(img/dbz2.png)','url(img/dbz3.png)','url(img/dbz4.png)','url(img/dbz5.png)','url(img/dbz6.png)','url(img/dbz7.png)','url(img/kamehameha.png)'];
+let i=0;
 function myFun()
 {
-    let v=null;
-    const t = document.getElementById("tom");
-    const j = document.getElementById("jerry");
-    let x=0,x1=30;
-    clearInterval(v);
-    v=setInterval(animate,5);
-
-    function animate()
+    let x=setInterval(Kamehameha,150);
+    function Kamehameha()
     {
-        if(x==750)
-        {
-            clearInterval(v);
-        }
-        else
-        {
-            x++;
-            x1++;
-            t.style.right=x+"px";
-            j.style.right=x1+"px";
-        }
+            i++;
+            if(i ===8){
+                i=0;
+                document.getElementById("kamehameha").style.backgroundImage = "none";
+            }
+            if(i<7)
+            gokuAnime.style.backgroundImage = goku[i];
+            if(i===7)
+            {
+                // document.getElementById("kamehameha").style.left=200+"px";
+                document.getElementById("kamehameha").style.backgroundImage = goku[7];
+            }
     }
 }
