@@ -4,6 +4,7 @@ body{
     background-image:url(./img/background.png);
     background-size: cover;
     overflow: hidden;
+    background-repeat: no-repeat;
 }
 .outer{
     position:relative;
@@ -14,8 +15,8 @@ body{
     z-index: 2;
     background-image: url(./img/dbz1.png);
     position:absolute;
-    top: 700px;
-    left: 570px;
+    top: 55vh;
+    left: 65vw;
     height:150px;
     width: 200px;
     background-size: contain;
@@ -24,8 +25,8 @@ body{
 #kamehameha{
     z-index: 2;
     position:absolute;
-    top: 720px;
-    left: 650px;
+    top: 55vh;
+    left: 68vw;
     height:150px;
     width: 400px;
     background-size: contain;
@@ -35,8 +36,8 @@ body{
     z-index: 2;
     background-image: url(./img/vegeta1.png);
     position:absolute;
-    top: 700px;
-    left: 950px;
+    top: 55vh;
+    left: 80vw;
     height:150px;
     width: 200px;
     background-size: contain;
@@ -47,7 +48,7 @@ body{
     background-image: url(./img/plane.png);
     left: -450px;
     position:absolute;
-    top: 50px;
+    top:-5vh;
     height:300px;
     width: 400px;
     background-size: contain;

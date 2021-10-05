@@ -21,8 +21,8 @@ function myFun()
                 document.getElementById("vegeta").style.backgroundImage = vegeta[i-8];
                 if(i==12)
                 {
-                    document.getElementById("vegeta").style.top=750+"px";
-                    document.getElementById("vegeta").style.left=1050+"px";
+                    document.getElementById("vegeta").style.top="58vh";
+                    document.getElementById("vegeta").style.left="85vw";
                     
                 } 
             }
