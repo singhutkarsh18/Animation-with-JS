@@ -30,6 +30,17 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
 }
+#vegeta{
+    z-index: 2;
+    background-image: url(./img/vegeta1.png);
+    position:absolute;
+    top: 700px;
+    left: 450px;
+    height:150px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .btn{
     height: 50px;
     width: 100px;
