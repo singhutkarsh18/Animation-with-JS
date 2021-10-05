@@ -11,10 +11,10 @@ body{
 }
 #goku{
     z-index: 2;
-    background-image: url(./img/dbz1.png);
+    background-image: url(img/dbz1.png);
     position:absolute;
     top: 700px;
-    left: 250px;
+    left: 570px;
     height:150px;
     width: 200px;
     background-size: contain;
@@ -24,7 +24,7 @@ body{
     z-index: 2;
     position:absolute;
     top: 720px;
-    left: 350px;
+    left: 650px;
     height:150px;
     width: 400px;
     background-size: contain;
@@ -32,12 +32,23 @@ body{
 }
 #vegeta{
     z-index: 2;
-    background-image: url(./img/vegeta1.png);
+    background-image: url(img/vegeta1.png);
     position:absolute;
-    top: 690px;
-    left: 635px;
+    top: 700px;
+    left: 950px;
     height:150px;
     width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#plane{
+    z-index: 2;
+    background-image: url(img/plane.png);
+    left: -450px;
+    position:absolute;
+    top: 50px;
+    height:300px;
+    width: 400px;
     background-size: contain;
     background-repeat: no-repeat;
 }

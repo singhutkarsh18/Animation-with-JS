@@ -15,11 +15,17 @@ function myFun()
             gokuAnime.style.backgroundImage = goku[i];
             if(i===7)
             {
-                // document.getElementById("kamehameha").style.left=200+"px";
                 document.getElementById("kamehameha").style.backgroundImage = goku[7];
             }
             if(i>8){
                 document.getElementById("vegeta").style.backgroundImage = vegeta[i-8];
+                if(i==12)
+                {
+                    document.getElementById("vegeta").style.top=750+"px";
+                    document.getElementById("vegeta").style.left=1050+"px";
+                    
+                } 
             }
+           
     }
 }
