@@ -8,6 +8,8 @@ function myFun()
     function Kamehameha()
     {
             i++;
+            if(i==12)
+                document.getElementById("kamehameha").style.backgroundImage = "none";
             if(i ===8){
                 document.getElementById("kamehameha").style.backgroundImage = "none";
             }
